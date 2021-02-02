@@ -1,13 +1,19 @@
 import { Dog } from './components/Dog.js';
+import { Cat } from './components/Cat.js';
+import { Hamster } from './components/Hamster.js';
 
 const rexas = new Dog('Rexas', 'brown');
-const rikis = new Dog('Rikis', 'white');
+const pukis = new Cat('Pukis', 'white');
+const jorkis = new Hamster('Jorkis', 'golden');
 
 console.log(rexas);
-console.log(rikis);
+console.log(pukis);
+console.log(jorkis);
 
 rexas.voice();
-rikis.voice();
+pukis.voice();
+jorkis.voice();
 
 rexas.introduce();
-rikis.introduce();
+pukis.introduce();
+jorkis.introduce();
